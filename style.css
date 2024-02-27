@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(6, 6, 209);
+    padding: 15px;
+    margin: -10px -10px 0 -10px;
+}
+
+.contingut-header {
+    display: flex;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.contingut-ancors {
+    margin-left: 95px;
+}
+
+.contingut-formulari {
+    text-align: right;
+    margin-right: 150px;
+}
+
+.contingut-linea {
+    width: 49%;
+}
+
+input {
+    border: 1px solid transparent;
+    padding: 5px;
+}
+
+button {
+    border: 1px solid transparent;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #2074c7;
+    scale: 1.3;
+    margin-left: 15px;
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(104, 104, 223);
+    font-weight: lighter;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: left;
+    color: rgb(104, 104, 223);
+    font-weight: lighter;
+    font-size: 30px;
+    margin: 70px 0 -15px 0;
+}
+
+p {
+    word-spacing: 3px;
+}
+
+.primer-paragraf {
+    margin: 0 100px;
+}
+
+.contingut-segon-article, .contingut-tercer-article {
+    display: flex;
+}
+
+.contingut-segon-parraf {
+    width: 50%;
+    margin-left: 105px;
+}
+
+.contingut-primera-imatge {
+    width: 30%;
+    transform: translateX(10%);
+}
+
+.imatge-1 {
+    width: 100%;
+    margin: 25px;
+}
+
+.imatge-2 {
+    width: 100%;
+    margin-left: 105px;
+}
+
+.contingut-segona-imatge {
+    width: 30%;
+}
+
+.contingut-tercer-parraf {
+    width: 53%;
+    transform: translateX(20%);
+}
+
+footer {
+    margin-top: 50px;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer a {
+    color: blue;
+    text-decoration: underline;
+}
+
