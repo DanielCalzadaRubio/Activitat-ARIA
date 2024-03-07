@@ -2,117 +2,247 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-    background-color: rgb(6, 6, 209);
-    padding: 15px;
-    margin: -10px -10px 0 -10px;
+/*PC*/
+@media only screen and (min-width: 1024px) {
+    
+    header {
+        background-color: #c1121f;
+        padding: 15px;
+        margin: -10px -10px 0 -10px;
+    }
+    
+    .contingut-header {
+        display: flex;
+    }
+    
+    a {
+        color: #fff;
+        text-decoration: none;
+        margin-right: 20px;
+        text-align: center;
+    }
+    
+    .contingut-ancors {
+        margin-left: 95px;
+    }
+    
+    .contingut-formulari {
+        text-align: right;
+        margin-right: 150px;
+    }
+    
+    .contingut-linea {
+        width: 49%;
+    }
+    
+    input {
+        border: 1px solid transparent;
+        padding: 5px;
+    }
+    
+    button {
+        border: 1px solid transparent;
+        border-radius: 3px;
+        color: #fff;
+        background-color: #780000;
+        scale: 1.3;
+        margin-left: 15px;
+        padding: 5px;
+    }
+    
+    h1 {
+        text-align: center;
+        color: #c1121f;
+        font-weight: lighter;
+        font-size: 50px;
+    }
+    
+    h2 {
+        text-align: left;
+        color: #c1121f;
+        font-weight: lighter;
+        font-size: 30px;
+        margin: 70px 0 -15px 0;
+    }
+    
+    p {
+        word-spacing: 3px;
+    }
+    
+    .primer-paragraf {
+        margin: 0 100px;
+    }
+    
+    .contingut-segon-article, .contingut-tercer-article {
+        display: flex;
+    }
+    
+    .contingut-segon-parraf {
+        width: 50%;
+        margin-left: 105px;
+    }
+    
+    .contingut-primera-imatge {
+        width: 30%;
+        transform: translateX(10%);
+    }
+    
+    .imatge-1 {
+        width: 100%;
+        margin: 25px;
+    }
+    
+    .imatge-2 {
+        width: 100%;
+        margin-left: 105px;
+    }
+    
+    .contingut-segona-imatge {
+        width: 30%;
+    }
+    
+    .contingut-tercer-parraf {
+        width: 53%;
+        transform: translateX(20%);
+    }
+    
+    footer {
+        margin-top: 50px;
+    }
+    
+    footer p {
+        text-align: center;
+    }
+    
+    footer a {
+        color: #c1121f;
+        text-decoration: underline;
+    }
 }
 
-.contingut-header {
-    display: flex;
+/*TABLET*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .contingut-header {
+        background-color: #c1121f;
+        margin: -8px 0 0 -8px;
+    }
+
+    nav {
+        transform: translateX(10%);
+        padding: 10px 0;
+    }
+
+    nav a {
+        margin: 30px;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    form {
+        transform: translateX(14%);
+    }
+
+    form input {
+        border: 1px solid transparent;
+        padding: 5px;
+        margin-bottom: 10px;
+        width: 71vh;
+    }
+
+    form button {
+        border: 1px solid transparent;
+        border-radius: 3px;
+        color: #fff;
+        background-color: #780000;
+        scale: 1.1;
+        margin-left: 20px;
+        padding: 5px;
+    }
+
+    h1 {
+        text-align: center;
+        color: #c1121f;
+        font-size: 40px;
+    }
+
+    h2 {
+        text-align: center;
+        color: #c1121f;
+        font-size: 25px; 
+    }
+
+    .primer-paragraf, .contingut-segon-parraf p, .imatge-1, .imatge-2, .contingut-tercer-parraf p {
+        text-align: justify;
+        width: 80%;
+        transform: translateX(12.5%);
+    }
+
+    footer {
+        text-align: center;
+    }
+
 }
 
-a {
-    color: #fff;
-    text-decoration: none;
-    margin-right: 20px;
-    text-align: center;
-}
+/*MOVIL*/
+@media only screen and (max-width: 767px) {
+    .contingut-header {
+        background-color: #c1121f;
+        margin: -8px 0 0 -8px;
+    }
 
-.contingut-ancors {
-    margin-left: 95px;
-}
+    nav {
+        transform: translateX(3.5%);
+        padding: 15px;
+    }
 
-.contingut-formulari {
-    text-align: right;
-    margin-right: 150px;
-}
+    nav a {
+        margin: 15px;
+        color: #fff;
+        text-decoration: none;
+    }
 
-.contingut-linea {
-    width: 49%;
-}
+    form {
+        transform: translateX(25%);
+    }
 
-input {
-    border: 1px solid transparent;
-    padding: 5px;
-}
+    form input {
+        border: 1px solid transparent;
+        padding: 5px;
+        margin-bottom: 10px;
+        width: 30vh;
+    }
 
-button {
-    border: 1px solid transparent;
-    border-radius: 3px;
-    color: #fff;
-    background-color: #2074c7;
-    scale: 1.3;
-    margin-left: 15px;
-    padding: 5px;
-}
+    form button {
+        border: 1px solid transparent;
+        border-radius: 3px;
+        color: #fff;
+        background-color: #780000;
+        scale: 1.1;
+        margin-left: 20px;
+        padding: 5px;
+    }
 
-h1 {
-    text-align: center;
-    color: rgb(104, 104, 223);
-    font-weight: lighter;
-    font-size: 50px;
-}
+    h1 {
+        text-align: center;
+        color: #c1121f;
+        font-size: 40px;
+    }
 
-h2 {
-    text-align: left;
-    color: rgb(104, 104, 223);
-    font-weight: lighter;
-    font-size: 30px;
-    margin: 70px 0 -15px 0;
-}
+    h2 {
+        text-align: center;
+        color: #c1121f;
+        font-size: 25px; 
+    }
 
-p {
-    word-spacing: 3px;
-}
+    .primer-paragraf, .contingut-segon-parraf p, .imatge-1, .imatge-2, .contingut-tercer-parraf p {
+        text-align: justify;
+        width: 80%;
+        transform: translateX(12.5%);
+    }
 
-.primer-paragraf {
-    margin: 0 100px;
-}
+    footer {
+        text-align: center;
+    }
 
-.contingut-segon-article, .contingut-tercer-article {
-    display: flex;
 }
-
-.contingut-segon-parraf {
-    width: 50%;
-    margin-left: 105px;
-}
-
-.contingut-primera-imatge {
-    width: 30%;
-    transform: translateX(10%);
-}
-
-.imatge-1 {
-    width: 100%;
-    margin: 25px;
-}
-
-.imatge-2 {
-    width: 100%;
-    margin-left: 105px;
-}
-
-.contingut-segona-imatge {
-    width: 30%;
-}
-
-.contingut-tercer-parraf {
-    width: 53%;
-    transform: translateX(20%);
-}
-
-footer {
-    margin-top: 50px;
-}
-
-footer p {
-    text-align: center;
-}
-
-footer a {
-    color: blue;
-    text-decoration: underline;
-}
-
